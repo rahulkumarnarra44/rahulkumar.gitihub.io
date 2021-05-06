@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Recipies | Feel the Taste</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script type = "text/javascript">  
+        function fun() {  
+           alert ("Thanks for feedback,/n We will contact you as Soon as possible...");  
+        }
+       function getConfirmation() {
+               var retVal = confirm("Do you want to continue ?");
+               if( retVal == true ) {
+                  document.write ("User wants to continue!");
+                  return true;
+               } else {
+                  document.write ("User does not want to continue!");
+                  return false;
+               }
+            } 
+  </script>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="index.html"><img src="images/logo.PNG" width="160" height="60"></a>
+            </div>
+            
+            <div>
+                <form class="search">
+                    <input type="search" name="s" placeholder="Search your Favorites...">
+                    <input type="submit" value="search"  onclick = "fun();" >
+                </form>
+            </div>
+            <div class="clearfix"></div>
+            
+            <nav class="mainmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Order</a></li>
+                    <li><a href="#">Bookings</a>
+                        <ul class="drop">
+                            <li><a href="#">Rooms</a></li>
+                            <li><a href="#">Tables</a></li>
+                            <li><a href="#">Foods</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Offers | Coupons</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <marquee width:50%><strong>(:.....Welcome to Rahul Resipies. Apply #First20 to get 20% off for the first time upto 200 RS/-.&nbsp;&nbsp;Buy two Burgers and get 20 Rupees off/-..... Come on Hurry Up the offer valid till today Only.</strong></marquee> 
+            </div>
+        </header>
+        <section class="banner cycle-slideshow">
+            <img id="photo" src="images/image1.jpg" alt="Banner 1" width="500px" height="300px">
+        </section>
+        <section class="content-holder">
+            <article class="content">
+                <h1>WELCOME TO RAHUL RECIPIES</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate corrupti, aliquid error sit cum. 
+                    Ea rerum hic est, dolore, ipsa, voluptatem corporis architecto quod sunt natus dignissimos sint corrupti.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita error, hic et reprehenderit eaque? 
+                    Voluptatibus quo quod, assumenda nulla unde sequi facilis voluptate, saepe blanditiis alias laborum maxime? Harum.
+                </P>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate corrupti, aliquid error sit cum. 
+                    Ea rerum hic est, dolore, ipsa, voluptatem corporis architecto quod sunt natus dignissimos sint corrupti.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita error, hic et reprehenderit eaque? 
+                    Voluptatibus quo quod, assumenda nulla unde sequi facilis voluptate, saepe blanditiis alias laborum maxime? Harum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates cupiditate corrupti, aliquid error sit cum. 
+                    Ea rerum hic est, dolore, ipsa, voluptatem corporis architecto quod sunt natus dignissimos sint corrupti.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis expedita error, hic et reprehenderit eaque? 
+                    Voluptatibus quo quod, assumenda nulla unde sequi facilis voluptate, saepe blanditiis alias laborum maxime? Harum.
+                </P>
+            </article>
+
+            <aside class="sidebar">
+                <div>
+                    <h3><u>Check Awards:</u></h3>
+                    <ul>
+                        <li><a href="#" >-> 2018</a></li>
+                        <li><a href="#" >-> 2019</a></li>
+                        <li><a href="#" >-> 2020</a></li>
+                        <li><a href="#" >-> 2020</a></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </section>
+       
+        <section class="gallery">
+            <h3 style="background-color: lightgreen;display:block;"><center>Our Resturant GALLERY</center> </h3>
+            <div class="col">
+                <div class="card card1">
+                </div>
+                <div class="card card2">
+                </div>
+                <div class="card card3">
+                </div>
+                <div class="card card4">
+                  </div>
+                  <div class="card card5">
+                  </div>
+                  <div class="card card6">
+                  </div>       
+        </section>
+        <section>
+            <h3>FEEDBACK FORM:</h3>
+        <div class="feedback">
+            
+            <form action="action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="country">Country</label>
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
+        </section>
+        
+        <footer class="mainfotter">
+            <div class="fotter-box">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">AboutUS</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Management Team</a></li>
+                    <li><a href="#">Board Of Directors</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li> 
+                </ul>
+            </div>
+            <div class="fotter-box">
+                <h3>Parterners</h3>
+                <ul>
+                    <li><a href="#">Swiggy</a></li>
+                    <li><a href="#">Zomato</a></li>
+                    <li><a href="#">Dingu</a></li>
+                    <li><a href="#">Arabian Kebabs</a></li>
+                </ul>
+            </div >
+            <div class="fotter-box">
+                <h3>For Foodies</h3>
+                <ul>
+                    <li><a href="#">Code of contact</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Help and Contact us</a></li>
+                    <li><a href="#">Business App</a></li>
+                    <li><a href="#">Refund and Cancellation</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Offer Terms</a></li>
+                    <li><a href="#">Phishing & Fraud</a></li> 
+                </ul>
+            </div>
+            <div class="fotter-box ">
+                <h3>Address:</h3>
+                <address>
+                    <img src="https://static.javatpoint.com/images/home.png" alt="address">
+                <p> #100, pocham palli street, Anna nagar, Chennai,<br> Tamil nadu- 60120</p>
+                <p>E-mail:<a href="mailto:narramamatha122@gmail.com">narramamatha122@gmail.com</a></p>
+                <p>Phone number:<a href="tel:9959305185"> 9959305185</a></p>
+                </address>
+            </div>
+            <div class="clearfix"></div>
+        </footer>
+        
+       
+
+        <section style="background-color: orange">
+            <h3 class="like">Like, Subscribe And Follow US:</h3>
+            <div class="social">
+                
+                <a target="_blank" rel="image1" href="https://www.quora.com/"><img src="https://static.javatpoint.com/images/logo/quote.png" alt="RSS Feed"></a> 
+                <a target="_blank" rel="image2" href="https://feedburner.google.com/fb/a/mailverify?uri=javatpointsonoo"><img src="https://static.javatpoint.com/images/social/mail1.png" alt="Subscribe to Get Email Alerts"></a>
+                <a target="_blank" rel="image3"  href="https://www.facebook.com/"><img src="https://static.javatpoint.com/images/social/facebook1.jpg" alt="Facebook Page"></a> 
+                <a target="_blank" rel="image4" href="https://twitter.com/"><img src="https://static.javatpoint.com/images/social/twitter1.png" alt="Twitter Page"></a>
+                <a target="_blank" rel="img5" href="https://www.youtube.com/channel/"><img src="https://static.javatpoint.com/images/youtube32.png" alt="YouTube"></a>
+                <a target="_blank" rel="img6" href="https://javatpoint.blogspot.com"><img src="https://static.javatpoint.com/images/social/blog.png" alt="Blog Page"></a> 
+            </div>
+            <div class="copy">
+                <p><small>Copyright &copy; 2021. All Rights Reserved</small></p>
+                </div>
+        </section>
+        
+        
+    </div>
+    <script>
+        document.getElementById("photo").addEventListener("mouseover",changeimage);
+        document.getElementById("photo").addEventListener("mouseleave",changeimage2);
+
+        function changeimage(){
+            var image = document.getElementById("photo").src="images/image2.jpg"
+        }
+        function changeimage2(){
+            var image = document.getElementById("photo").src="images/image1.jpg"
+        }
+    </script>
+</body>
+</html>
